@@ -29,7 +29,7 @@ public class BoardController {
 	@GetMapping("/")
 	public String root() throws Exception{
 
-		return "redirect:/board";
+		return "redirect:/board"  ;
 	}
 	
 	// 전체 보기
